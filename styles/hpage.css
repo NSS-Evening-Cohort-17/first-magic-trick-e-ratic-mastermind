@@ -67,3 +67,20 @@ h2{
 body{
     background-color: rgb(188, 193, 199);
 }
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    
+    font-size: 0;
+  }
+  
+.info-piece {
+    display: inline-block;
+    border-style: solid;
+    width: 100%;
+  }
+  
+  
