@@ -51,7 +51,7 @@ h1{
     padding: 25px 100px;
 }
 
-img{
+.banner{
     width: 100%;
     height: auto;
 }
@@ -68,19 +68,67 @@ body{
     background-color: rgb(188, 193, 199);
 }
 
-.wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 1fr;
-    
-    font-size: 0;
-  }
-  
-.info-piece {
-    display: inline-block;
-    border-style: solid;
-    width: 100%;
-  }
-  
-  
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.absec{
+    width: 50%;
+    height: auto;
+}
+
+h3{
+    justify-content: center;
+    font-family: Marvel;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 200px;
+}
+
+.list{
+    justify-content: center;
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+h4{
+    justify-content: center;
+    font-family: Marvel;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bio{
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.biosec{
+    width: 50%;
+    height: auto;
+}
+
+h5{
+    display:flex;
+    justify-content: center;
+    font-family: Marvel;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.lastsec{
+    width: 900px;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 350px;
+}
